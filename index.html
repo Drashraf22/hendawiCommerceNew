@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hendawi Commerce</title>
+    <!-- Main Css File -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- swiper js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- Start header Section -->
+    <header>
+        <div class="container f-between">
+            <div class="logo">
+                <i class="fa-solid fa-shop"></i>
+                <p>Hendawi</p>
+            </div>
+            <ul id="nav-bar">
+                <i id="x-nav-btn" class="fa-solid fa-x x-nav"></i>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">shop</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="faq's.html">faq's</a></li>
+                <li><a href="contact.html" class="cont">contact</a></li>
+            </ul>
+            <div class="header-icons">
+                <i id="user" class="fa-solid fa-user"></i>
+                <i id="bag" class="fa-solid fa-bag-shopping"></i>
+                <i id="bar" class="fa-solid fa-bars bar-head"></i>
+            </div>
+        </div>
+    </header>
+    <!-- End header Section -->
+    <!-- Start login Section -->
+    <div id="login" class="login">
+        <i id="x-btn" class="fa-solid fa-x"></i>
+        <h1>login</h1>
+        <form action="" class="login-form">
+            <div class="mail">
+                <label for="emaill">Email</label>
+                <input type="email" id="emaill">
+            </div>
+            <div class="pass">
+                <label for="pass">password</label>
+                <input type="text" id="pass">
+            </div>
+            <input type="submit" value="sign in">
+            <p>not a member? <a href="#">sign up now</a></p>
+        </form>
+    </div>
+    <!-- End login Section -->
+    
+    <!-- Start cart Section -->
+    <section class="cart" id="cart">
+        <i id="cart-btn" class="fa-solid fa-x"></i>
+        <h1>my cart</h1>
+        <div class="card-order f-between">
+            <div class="order-img flex-1">
+                <img src="img/cart-1.png" alt="">
+            </div>
+            <div class="order-info flex-1">
+                <h3>windbreaker</h3>
+                <p class="price-order">$12.00</p>
+                <div class="amount f-between">
+                    <div class="amount-span">
+                        <span>-</span>
+                        <span>1</span>
+                        <span>+</span>
+                    </div>
+                    <div class="order-delete">
+                        <i class="fa-solid fa-trash-can"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-order f-between">
+            <div class="order-img flex-1">
+                <img src="img/cart-2.png" alt="">
+            </div>
+            <div class="order-info flex-1">
+                <h3>cardigan hoodie</h3>
+                <p class="price-order">$16.00</p>
+                <div class="amount f-between">
+                    <div class="amount-span">
+                        <span>-</span>
+                        <span>1</span>
+                        <span>+</span>
+                    </div>
+                    <div class="order-delete">
+                        <i class="fa-solid fa-trash-can"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-order f-between">
+            <div class="order-img flex-1">
+                <img src="img/cart-3.png" alt="">
+            </div>
+            <div class="order-info flex-1">
+                <h3>cartoon</h3>
+                <p class="price-order">$10.00</p>
+                <div class="amount f-between">
+                    <div class="amount-span">
+                        <span>-</span>
+                        <span>1</span>
+                        <span>+</span>
+                    </div>
+                    <div class="order-delete">
+                        <i class="fa-solid fa-trash-can"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-num">
+            <p>3 item</p>
+            <p>$38.00</p>
+        </div>
+    </section>
+    <!-- End cart Section -->
+    
+    <!-- Start Home Section -->
+    <section class="home" id="home">
+        <div class="container">
+            <!-- Swiper -->
+            <div class="swiper mySwiper home-container">
+                <div class="swiper-wrapper home-box">
+                    <div class="swiper-slide home-slide">
+                        <div class="home-img">
+                            <div class="image">
+                                <img src="img/slide-2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="home-info">
+                            <b>#1 trending item</b>
+                            <h1>original <br> is never <br> finished!!</h1>
+                            <p>this is a place of hope, meaning and purpose.visit and become a part of something bigger - 
+                                a movement that is changing lives
+                            </p>
+                            <div class="bottomSection f-between">
+                                <button class="main-btn">buy now</button>
+                                <a href="#">view Details <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide home-slide">
+                        <div class="home-img">
+                            <div class="image">
+                                <img src="img/slide-3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="home-info">
+                            <b>#2 trending item</b>
+                            <h1>fall - <br> winter <br> 2024!!</h1>
+                            <p>this is a place of hope, meaning and purpose.visit and become a part of something bigger - 
+                                a movement that is changing lives
+                            </p>
+                            <div class="bottomSection f-between">
+                                <button class="main-btn">buy now</button>
+                                <a href="#">view Details <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide home-slide">
+                        <div class="home-img">
+                            <div class="image">
+                                <img src="img/slide-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="home-info">
+                            <b>#3 trending item</b>
+                            <h1>Sale 20%<br> off on <br> everything!!</h1>
+                            <p>this is a place of hope, meaning and purpose.visit and become a part of something bigger - 
+                                a movement that is changing lives
+                            </p>
+                            <div class="bottomSection f-between">
+                                <button class="main-btn">buy now</button>
+                                <a href="#">view Details <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <!-- End Home Section -->
+    
+    <!-- Start banner Section -->
+    <section class="banner">
+        <div class="container">
+            <div class="banner-box d-flex">
+                <div class="banner-img flex-1">
+                    <img src="img/discount.png" alt="">
+                </div>
+                <div class="banner-info flex-1">
+                    <p>50% discount <br> on new products</p>
+                    <button class="main-btn">Go To New</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End banner Section -->
+
+    <!-- Start arrival Section -->
+    <section class="arrival">
+        <h1>new arrivals</h1>
+        <div class="container">
+            <div class="swiper mySwiper arrival-container">
+                <div class="swiper-wrapper arrival-box">
+                    <div class="swiper-slide arrival-slide">
+                        <span>New</span>
+                        <img src="img/new-1.png" alt="">
+                        <h3>nike hoodie</h3>
+                        <small>accessory</small>
+                        <p>$7.99 <sub>$14.98</sub></p>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <div class="swiper-slide arrival-slide">
+                        <span>New</span>
+                        <img src="img/new-2.png" alt="">
+                        <h3>windbreaker jacket</h3>
+                        <small>accessory</small>
+                        <p>$14.88 <sub>$29.98</sub></p>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <div class="swiper-slide arrival-slide">
+                        <span>New</span>
+                        <img src="img/new-3.png" alt="">
+                        <h3>air jorden zipper</h3>
+                        <small>accessory</small>
+                        <p>$12.54 <sub>$24.98</sub></p>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <div class="swiper-slide arrival-slide">
+                        <span>New</span>
+                        <img src="img/new-4.png" alt="">
+                        <h3>fur jacket</h3>
+                        <small>accessory</small>
+                        <p>$4.45 <sub>$13.90</sub></p>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <div class="swiper-slide arrival-slide">
+                        <span>New</span>
+                        <img src="img/new-5.png" alt="">
+                        <h3>fleece jacket</h3>
+                        <small>accessory</small>
+                        <p>$24.43 <sub>$30.54</sub></p>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <div class="swiper-slide arrival-slide">
+                        <span>New</span>
+                        <img src="img/new-6.png" alt="">
+                        <h3>nike hoodie </h3>
+                        <small>accessory</small>
+                        <p>$7.99 <sub>$14.98</sub></p>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <!-- End arrival Section -->
+
+    <!-- Start order Section -->
+    <section class="order">
+        <div class="container">
+            <h1>how to order products <br> from hendawi</h1>
+            <div class="order-box">
+                <div class="order-card">
+                    <span>01</span>
+                    <h3>choose product</h3>
+                    <p>we have several varieties products you can choose from.</p>
+                </div>
+                <div class="order-card">
+                    <span>02</span>
+                    <h3>place an order</h3>
+                    <p>once your order is set, we move to the next step which is the shipping.</p>
+                </div>
+                <div class="order-card">
+                    <span>03</span>
+                    <h3>get ordered delivered</h3>
+                    <p>our delivery process is easy, you receive the order direct to your door</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End order Section -->
+    
+    <!-- Start settle Section -->
+    <section class="settle">
+        <h1>our newsettle</h1>
+        <div class="container">
+            <p>promotion new products and sales. directly to your inbox</p>
+            <form action="">
+                <input type="email" placeholder= "Enter Your Email">
+                <input class="main-btn" type="submit" value="subscribe">
+            </form>
+        </div>
+    </section>
+    <!-- End settle Section -->
+
+    <!-- Start settlfooter Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-box">
+                <div class="first-col">
+                    <div class="logo">
+                        <i class="fa-solid fa-shop"></i>
+                        <p>Hendawi</p>
+                    </div>
+                    <p class="col-p">enjoy the biggest sale <br> of your life</p>
+                    <div class="footer-icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+                <ul class="second-col">
+                    <h3>About</h3>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">customer support</a></li>
+                    <li><a href="#">support center</a></li>
+                </ul>
+                <ul class="third-col">
+                    <h3>our serives</h3>
+                    <li><a href="#">shop</a></li>
+                    <li><a href="#">discounts</a></li>
+                    <li><a href="#">shipping mode</a></li>
+                </ul>
+                <ul class="fourth-col">
+                    <h3>our company</h3>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">register</a></li>
+                    <li><a href="#">contact us</a></li>
+                </ul>
+            </div>
+            <p class="rights">designed by <span>Ashraf Hendawi</span> &copy; | All Rights received </p>
+        </div>
+    </footer>
+    <!-- End footer Section -->
+    <!-- Start upBtn Section -->
+    <button class="main-btn up-btn" id="upBtn"><i class="fa-solid fa-arrow-up"></i></button>
+    <!-- End upBtn Section -->
+    <!-- Start Theme Section -->
+    <section class="theme" id="theme">
+        <div class="gear" id="gear">
+            <i class="fa-solid fa-gear"></i>
+        </div>
+        <div class="theme-content">
+            <p>theme color</p>
+            <div class="colors">
+                <span data-color = "red" class="color-1"><i class="fa-solid fa-check active"></i></span>
+                <span data-color = "blue" class="color-2"><i class="fa-solid fa-check"></i></span>
+                <span data-color = "biege" class="color-3"><i class="fa-solid fa-check"></i></span>
+                <span data-color = "violet" class="color-4"><i class="fa-solid fa-check"></i></span>
+                <span data-color = "orange" class="color-5"><i class="fa-solid fa-check"></i></span>
+            </div>
+        </div>
+    </section>
+    <!-- End Theme Section -->
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
